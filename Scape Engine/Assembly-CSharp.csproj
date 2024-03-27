@@ -55,18 +55,19 @@
     <UnityVersion>2021.3.36f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Code\InterfaceTool.cs" />
-    <Compile Include="Assets\Code\SystemManager.cs" />
-    <Compile Include="Assets\Code\DieRoll.cs" />
-    <Compile Include="Assets\Code\Card.cs" />
-    <Compile Include="Assets\Code\GameSettings.cs" />
-    <Compile Include="Assets\Code\Player.cs" />
-    <Compile Include="Assets\Code\Deck.cs" />
-    <Compile Include="Assets\Code\BoardObject.cs" />
-    <Compile Include="Assets\Code\CombatCard.cs" />
-    <Compile Include="Assets\Code\Board.cs" />
-    <Compile Include="Assets\Code\DeckUI.cs" />
-    <Compile Include="Assets\Code\Map.cs" />
+    <Compile Include="Assets\Code\Systems\DieRoll.cs" />
+    <Compile Include="Assets\Code\Session\Board.cs" />
+    <Compile Include="Assets\Code\DeckHandling\CombatCard.cs" />
+    <Compile Include="Assets\Code\DeckHandling\Deck.cs" />
+    <Compile Include="Assets\Code\DeckHandling\DeckUI.cs" />
+    <Compile Include="Assets\Code\DeckHandling\Card.cs" />
+    <Compile Include="Assets\Code\Session\Map.cs" />
+    <Compile Include="Assets\Code\Session\BoardObject.cs" />
+    <Compile Include="Assets\Code\Systems\SystemManager.cs" />
+    <Compile Include="Assets\Code\Session\Player.cs" />
+    <Compile Include="Assets\Code\Systems\GameSettings.cs" />
+    <Compile Include="Assets\Code\Systems\InterfaceTool.cs" />
+    <Compile Include="Assets\Code\Session\CameraController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
